@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.container
+{
+        padding: 0 15px;
+        min-height: 88vh;
+        
+        justify-content: center;
+        background:  #e3e6eb;
+}
+.container2{
+    min-height: 17vh;
+    margin-bottom: 0.2%;
+
+    
+}
+
+.facebook-sayfa{
+        justify-content: space-between;
+        max-width: 63%;
+        width: 100%;
+        
+}
+
+.facebook-sayfa .text {
+    margin-bottom: 10%;
+} 
+
+.facebook-sayfa h1{
+    color: blue;
+    font-size: 350%;
+    margin-bottom: 1%;
+}
+.facebook-sayfa p{
+    font-size: 170%;
+    white-space: nowrap;
+
+}
+form{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 4%;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgb(106, 103, 103);
+        max-width: 450px;
+        width: 115%;
+}
+
+.container .facebook-sayfa form input{
+    height: 55px;
+    width: 100%;
+    border: 1px solid #c6c2c2;
+    border-radius: 10px;
+    margin-bottom: 4%;
+    font-size: 100%;
+    padding: 3%;
+
+    
+}
+form input :focus{
+    outline: none;
+    border-color: rgb(51, 51, 204);
+}
+::placeholder
+{
+    color: gray;
+  
+}
+.gönder{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.gönder .girişyap{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(77, 77, 238);
+    padding: 15px 0;
+    border-radius: 6px;
+    color: white;
+    font-size: 100%;
+    font-weight: 600;
+    
+}
+
+.gönder .girişyap:hover
+{
+    background-color: black;
+}
+
+form a{
+    text-decoration: none;
+}
+.gönder .unut{
+    color: blue;
+   
+}
+.gönder .unut:hover{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(246, 235, 216);
+    margin-bottom: 0.7%;
+    margin-top: 1.2%;
+    max-width: 100%;
+    
+}
+m{
+
+  
+ right: 20%;
+ margin-top: 30%;
+  
+}
+m a{
+    color: black;
+    text-decoration: none;
+}
+m a:hover
+{
+    text-decoration: underline;
+}
+.yenihesap{
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.yenihesap a{
+    padding: 15px 20px;
+    background: rgb(17, 179, 17);
+    border-radius: 6px;
+    color: white;
+  
+}
+.yenihesap a:hover{
+    background: green;
+}
+ul{
+    text-align: center;
+    margin-top: 2%;
+}
+li{
+    display: inline;
+    color: gray;
+    font-size: small;
+ 
+}
+ul li a{
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-size: small;
+    text-decoration: none;
+
+ 
+}
+ 
+ul hr{
+    border: none;
+   
+    background-color: rgba(120, 104, 78, 0.203);
+    margin-left: 29%;
+    min-width: 42%;
+    max-width: 38%;
+ 
+    
+}
+
+@media (max-width:1300px)
+{
+    .container .facebook-sayfa{
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .facebook-sayfa .text{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:1801px)
+{
+    .container .facebook-sayfa{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+ 
+
+
+   
+
